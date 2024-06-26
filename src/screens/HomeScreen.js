@@ -7,7 +7,7 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.container}>
             <Text style={styles.title}>Mindfulness Machine</Text>
             <Image source={require('../images/mentalhealth-image.webp')} style={styles.image} />
-            <View>
+            <View style={styles.buttonContainer}>
                 <TouchableOpacity
                     style={styles.button}
                     onPress={() => navigation.navigate('Login')}>
@@ -42,15 +42,18 @@ const styles = StyleSheet.create({
         width: 300, // Adjust the width as needed
         height: 200, // Adjust the height as needed
         resizeMode: 'cover', // Adjust the resize mode as needed
-        position: 'absolute', top: 100,
+        position: 'absolute', top: 120,
         marginBottom: 100,
     },
     button: {
         backgroundColor: "#FFD700",
         padding: 10,
         borderRadius: 25,
-        marginTop: 50,
+        marginTop: 35,
         width: 300,
+    },
+    buttonContainer: {
+        marginTop: 100,
     },
 });
 
