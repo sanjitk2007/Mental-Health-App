@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
         marginBottom: 100,
     },
     buttonContainer: {
-        marginTop: 400,
+        marginTop: 399,
     },
     button: {
         backgroundColor: "#FFD700",
