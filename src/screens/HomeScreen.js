@@ -5,7 +5,7 @@ const HomeScreen = ({ navigation }) => {
         <ImageBackground source={require('../images/background-image.jpg.avif')} style={styles.backgroundImage}>
             <View style={styles.container}>
                 <Text style={styles.title}>Mindfulness Machine</Text>
-                <Text style = {styles.buttonText}>Your daily 5 minute Mindfulness</Text>
+                <Text style = {styles.buttonText}>Your Daily Five Minute Mindfulness</Text>
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity
                         style={styles.button}
